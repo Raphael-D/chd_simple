@@ -6,28 +6,23 @@
         <img class="hero__img img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/hero.jpg" alt="">
         <div class="hero__container container-fluid">
           <div class="hero__title"><img src="<?php echo get_template_directory_uri(); ?>/images/hero_title@2x.png" /></div>
-          <div class="hero__txt bg-gradient-blue">WEBコーダーのためのシンプルで使いやすいテーマ</div><br />
-          <div class="hero__txt bg-gradient-blue">必要最低限の機能でファイル数が少なく開発しやすいテーマです。</div>
+          <div class="hero__txt hero__txt-bg">WEBコーダーのためのシンプルで使いやすいテーマ</div><br />
+          <div class="hero__txt hero__txt-bg">必要最低限の機能でファイル数が少なく開発しやすいテーマです。</div>
         </div>
       </div>
       <!-- ./hero-->
       <!-- section concept-->
       <section class="concept-section" id="tg">
-          <div class="concept__wrap bg-gradient-blue">
+          <div class="concept__wrap concept__wrap-bg">
             <div class="concept__img">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/introduce@2x.png" />
+              <img src="<?php echo get_template_directory_uri(); ?>/images/introduce.jpg" />
             </div>
             <div class="concept__content">
               <h2 class="heading heading--concept">Wordpressテーマ「CHD Simple」をご紹介</h2>
               <div class="content concept">
                 <p class="concept-desc">
                   このテーマをダウンロードしていただきありがとうございます。私はワードプレス開発初心者です。
-                  このテーマは自分がワードプレスのテーマ開発方法を知りたいという理由と、シンプルで使いやすいテーマが欲しいと感じたので作成しました。
-                  シンプルなテーマを開発したいと思った経緯ですが、ワードプレスにデフォルトで用意されているテーマは、ブログ向けのレイアウトやページ構成だったり、
-                  すでにCSSが設定されていたりで「カスタマイズしにくいな」と感じておりました。
-                  さらに、カスタマイズされたワードプレスのテーマは、ページの読み込み速度があまり早いと感じません。
-                  もしかしたらパフォーマンスにも影響しているのかもしれません。
-                  そのため最低限の機能を備えた独自のシンプルなテーマを独自で開発してみました。まだまだ必要な機能が不足していると思うので
+                  パフォーマンス性とカスタマイズ性を考慮して最低限の機能を備えた独自のシンプルなテーマを独自で開発してみました。まだまだ必要な機能が不足していると思うので
                   少しずつ改良していきたいと思います。ある程度テーマとして使える規模になってきたら公式にテーマとしてローンチしてみたいと思います。
                   テーマについて、何かご意見がご要望などございましたらお気軽にお問い合わせください。
                   </p>
@@ -45,8 +40,7 @@
             </span>
           </h2>
           <div class="about__subtitle">
-            <h3 class="about__inner-subtitle">光の速度を追い越すために必要な項目を大きく３つ<br />
-            「心」「技」「体」に分けてレクチャー</h3>
+            <h3 class="about__inner-subtitle">光の速度を追い越すために必要な項目を大きく３つ<br />「心」「技」「体」に分けてレクチャー</h3>
           </div>
           <div class="row about-content">
             <div class="col-md-6"><img class="about-image" src="<?php echo get_template_directory_uri(); ?>/images/shingitai@2x.png" /></div>
@@ -74,10 +68,10 @@
       <!-- ./ about -->
       <!-- Case -->
       <div class="case-spacer"></div>
-      <section class="case-section l-section bg-gradient-blue">
+      <section class="case-section l-section bg-gradient-solid">
         <div class="case-wrap container container-fluid">
           <h2 class="heading text-center">
-            <span class="gradient-marker gradient-marker--warning">
+            <span class="gradient-marker gradient-marker--bright">
               <span class="gradient-marker__text">こんな経験はありませんか？</span>
             </span>
           </h2>
@@ -88,13 +82,11 @@
               <li class="case__lists">過去に遅いタイピングをしたトラウマがある</li>
               <li class="case__lists">キーボードとの接し方がわからない</li>
               <li class="case__lists">キーボードを買いに行く勇気がない</li>
-              <li class="case__lists">どうしてもタイプしたいキーボードに持ち主がいる</li>
             </ul>
             <ul class="col-md-6 case__list">
               <li class="case__lists">好きなキーボードに告白する勇気がない</li>
               <li class="case__lists">キーボードに浮気されたことがある</li>
               <li class="case__lists">キーボードとのLINEのやりとりがすぐ終わる</li>
-              <li class="case__lists">マッチングアプリで理想のキーボードに全く出会えない</li>
               <li class="case__lists">コンパや街コンで浮いてしまう</li>
               <li class="case__lists">２回目以降のデートの約束ができない</li>
             </ul>
@@ -102,8 +94,8 @@
         </div>
         <div class="case__message">
           <h2 class="heading text-center">
-            <span class="gradient-marker gradient-marker--green">
-              <span class="gradient-marker__text">CODEHACK:DEVの爆速タイプメソッドでは全て解決できます。</span>
+            <span class="gradient-marker gradient-marker--bright">
+              <span class="gradient-marker__text">CODEHACK:DEVの爆速タイプメソッドでは全て解決。</span>
             </span>
           </h2>
         </div>
@@ -123,34 +115,34 @@
             <div class="merit__lists col-md-4">
               <img src="<?php echo get_template_directory_uri(); ?>/images/merit01@2x.png" alt=""><br />
               <span class="merit__lists-content">
-                平日がお忙しい方のために（私も忙しい）<br />
-                LINE電話やチャットによる（電話はちょっと困る）<br />
-                綿密なご相談が可能（できる限り）
+                タイピングが苦手な方に<br />
+                タイピング矯正メソッドがあるので<br />
+                どなたでも確実にタイピング速度改善
               </span>
             </div>
             <div class="merit__lists col-md-4">
               <img src="<?php echo get_template_directory_uri(); ?>/images/merit02@2x.png" alt=""><br />
               <span class="merit__lists-content">
-                知識と経験が豊富な（自称）<br />
-                スタッフによるマンツーマンの（一人しかいない）<br />
-                あなた専用の細かなサポート（あなた次第）
+                知識と経験が豊富な<br />
+                プログラマーによる<br />
+                ワンツーマンで個別指導
               </span>
             </div>
             <div class="merit__lists col-md-4">
               <img src="<?php echo get_template_directory_uri(); ?>/images/merit03.png" alt=""><br />
               <span class="merit__lists-content">
-                キーボードの意見も合わせた<br />
-                お客様専用のカルテをご用意し、<br />
-                最短２ヶ月でプロタイパーに（最短）
+                使うキーボードの種類で<br />
+                お客様専用のメソッドを<br />
+                最短二ヶ月で習熟
               </span>
             </div>
           </div>
-          <div class="hide link-btn bg-gradient-orange"><a>選ばれる理由について詳しくはこちら</a></div>
+          <div class="hide link-btn bg-gradient-bright"><a>選ばれる理由について詳しくはこちら</a></div>
         </div>
       </section>
       <!-- ./ Merit -->
       <!-- section blog-->
-      <section class="l-section blog-section bg-gradient-blue--rev" id="tg1">
+      <section class="l-section blog-section bg-gradient-solid" id="tg1">
         <div class="container container-fluid">
           <h2 class="heading text-center" style="color: #fff;">
             <span class="gradient-marker gradient-marker--bright">
