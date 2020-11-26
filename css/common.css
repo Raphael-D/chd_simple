@@ -372,6 +372,9 @@ a:hover {
   font-size: 1.6em;
   line-height: 1;
 }
+.hero__txt-bg {
+  background-color: #000;
+}
 .hero--index {
   /* height: calc(700px - 51px); */
   height: 400px;
@@ -422,7 +425,7 @@ a:hover {
     min-width: 1438px;
   }
   .hero__title {
-    width: 60%;
+    width: 55%;
     max-width: 842px;
     margin-bottom: 10px;
   }
@@ -433,7 +436,6 @@ a:hover {
     padding-right: .3em;
     line-height: 1.8;
   }
-  
 }
 
 .heading--concept {
@@ -444,6 +446,9 @@ a:hover {
 .concept__content {
   color: #fff;
   padding: 4em 1em;
+}
+.concept__wrap-bg {
+  background-color: #000;
 }
 @media screen and (min-width: 768px) {
   .concept-section {
@@ -579,6 +584,7 @@ a:hover {
   height: 1.2em;
   background-image: url(../images/check_icon@2x.png);
   background-size: contain;
+  background-repeat: no-repeat;
   margin-right: .6em;
 }
 .case__message {
@@ -698,11 +704,11 @@ a:hover {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.2em 15px;
-  background: #fdc834; /* Old browsers */
-  background: -moz-linear-gradient(left,  #fdc834 0%, #f27336 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left,  #fdc834 0%,#f27336 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right,  #fdc834 0%,#f27336 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdc834', endColorstr='#f27336',GradientType=1 ); /* IE6-9 */
+  background: #f27336; /* Old browsers */
+  background: -moz-linear-gradient(left,  #f27336 0%, #fdc834 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #f27336 0%,#fdc834 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #f27336  0%,#fdc834 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f27336', endColorstr='#fdc834',GradientType=1 ); /* IE6-9 */
 }
 
 .card__btn {
@@ -786,9 +792,10 @@ a:hover {
 ***************/
 .contact-section {
   background-color: #eee;
-  background-image: url(../images/bg-contact@2x.jpg);
-  background-size: cover;
+  background-image: url(../images/bg-contact.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 .contact-section a:hover {
   opacity: .8;
