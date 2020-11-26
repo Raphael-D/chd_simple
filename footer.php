@@ -6,7 +6,7 @@
   </section>
 </aside>
 <!-- footer-->
-<footer class="l-footer bg-gradient-blue">
+<footer class="l-footer bg-gradient-solid">
         <!-- footer__wrapper-->
         <div class="l-wrapper container container-fluid">
           <!-- footer__gnav-->
